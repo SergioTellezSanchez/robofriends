@@ -4,8 +4,8 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import './App.css';
-
-import { setSearchField, requestRobots } from '../actions'
+import { setSearchField } from '../actions'
+import { requestRobots } from '../API'
 
 const mapStateToDrops = state => {
 	return {
